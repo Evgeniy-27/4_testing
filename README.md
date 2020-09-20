@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/eyw5g6tw3m5ag4b1?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/4-testing)
+
+[GitHub Pages](https://evgeniy-27.github.io/4_testing/)
+
 ## 4_testing
 
 ### Credit Card Validator

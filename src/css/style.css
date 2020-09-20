@@ -1,4 +1,70 @@
 body {
-  background: #eee;
-  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+h3 {
+  font-size: 1.3em;
+}
+.collection {
+  display: block;
+}
+.cards {
+  display: flex;
+  padding-left: 0;
+}
+.card {
+  text-indent: -9999px;
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  background-position: center center;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.cards li {
+  list-style-type: none;
+}
+.visa {
+  background-image: url("/src/img/mir.png");
+}
+.master {
+  background-image: url("/src/img/mastercard.png");
+}
+.amex {
+  background-image: url("/src/img/american_express.png");
+}
+.jcb {
+  background-image: url("/src/img/jcb.png");
+}
+.discover {
+  background-image: url("/src/img/discover.png");
+}
+.diners {
+  background-image: url("/src/img/diners_club.png");
+}
+.mir {
+  background-image: url("/src/img/mir.png");
+}
+
+.cardvisible {
+  opacity: 1;
+  filter: contrast(100%);
+}
+input {
+  width: 30%;
+  height: 25px;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+button {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  height: 25px;
+  font-size: 10px;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "dom",
+  "name": "testing",
   "version": "1.0.0",
   "description": "[![Build status]",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Evgeniy-27/DOM.git"
+    "url": "git+https://github.com/Evgeniy-27/4_testing"
   },
   "author": "Evgeniy",
   "license": "ISC",

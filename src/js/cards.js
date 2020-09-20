@@ -8,7 +8,7 @@ export default function accessoryCard(value) {
     return '.amex';
   } if (/^(?:2131|1800|35\d{3})\d{11}/.test(value)) {
     return '.jcb';
-  } if (/^2/.test(value)) {
+  } if (/^2||6/.test(value)) {
     return '.mir';
   } if (/^6(?:011|5)/.test(value)) {
     return '.discover';

@@ -33,7 +33,7 @@ h3 {
   list-style-type: none;
 }
 .visa {
-  background-image: url("/src/img/mir.png");
+  background-image: url("/src/img/visa.png");
 }
 .master {
   background-image: url("/src/img/mastercard.png");
@@ -59,7 +59,7 @@ h3 {
   filter: contrast(100%);
 }
 input {
-  width: 40%;
+  width: 30%;
   height: 25px;
   box-sizing: border-box;
   font-size: 10px;
